@@ -4,7 +4,7 @@ angular.module('profile.clipboard.card.edit.images', [
 	'common.fabric.constants'
 ])
 
-.controller('ImagesEditCtrl', ['$scope', '$www', 'Modal', 'Fabric', 'FabricConstants', 'ImagesConstants', 'Keypress', '$localStorage', function($scope, $www, Modal, Fabric, FabricConstants, ImagesConstants, Keypress, $localStorage) {
+.controller('ExampleCtrl', ['$scope', '$www', 'Modal', 'Fabric', 'FabricConstants', 'ImagesConstants', 'Keypress', '$localStorage', function($scope, $www, Modal, Fabric, FabricConstants, ImagesConstants, Keypress, $localStorage) {
 
 	$scope.fabric = {};
 	$scope.ImagesConstants = ImagesConstants;
